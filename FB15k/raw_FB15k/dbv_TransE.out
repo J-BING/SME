@@ -1,0 +1,8 @@
+### MICRO:
+	-- left   >> mean: 668.18087, median: 2.0, hits@10: 60.827%
+	-- right  >> mean: 966.78758, median: 2.0, hits@10: 74.281%
+	-- global >> mean: 817.48422, median: 2.0, hits@10: 67.554%
+### MACRO:
+	-- left   >> mean: 346.51577, median: 250.91882, hits@10: 72.64%
+	-- right  >> mean: 1551.35538, median: 982.98801, hits@10: 76.705%
+	-- global >> mean: 948.93557, median: 479.67528, hits@10: 74.672%

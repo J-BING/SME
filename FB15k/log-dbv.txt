@@ -1,0 +1,739 @@
+#0513
+/Users/bing/anaconda3/envs/theano/bin/python /Users/bing/work/MasterThesis/SME/FB15k/dbv_TransE.py
+/Users/bing/anaconda3/envs/theano/lib/python2.7/site-packages/nose_parameterized/__init__.py:7: UserWarning: The 'nose-parameterized' package has been renamed 'parameterized'. For the two step migration instructions, see: https://github.com/wolever/parameterized#migrating-from-nose-parameterized-to-parameterized (set NOSE_PARAMETERIZED_NO_WARN=1 to suppress this warning)
+  "The 'nose-parameterized' package has been renamed 'parameterized'. "
+DD{'ndim': 50, 'test_all': 10, 'loadmodelBi': False, 'loadmodelTri': False, 'nhid': 50, 'lremb': 0.01, 'savepath': 'dbv_TransE', 'seed': 123, 'marge': 0.5, 'simfn': 'L2', 'neval': 1000, 'dataset': 'dbv_s', 'nbatches': 100, 'lrparam': 0.01, 'loademb': False, 'datapath': '../data/', 'Nrel': 874, 'totepochs': 500, 'rhoL': 5, 'Nent': 56215, 'Nsyn': 55341, 'loadmodel': False, 'rhoE': 1, 'op': 'TransE'}
+BEGIN TRAINING
+-- EPOCH 10 (20.5166 seconds per epoch):
+COST >> 0.6439 +/- 0.1773, % updates: 84.65%
+	MEAN RANK >> valid: 6672.4115, train: 4545.8395
+		##### NEW BEST VALID >> test: 6592.533
+	(the evaluation took 127.061 seconds)
+-- EPOCH 20 (19.1015 seconds per epoch):
+COST >> 0.2851 +/- 0.0479, % updates: 56.056%
+	MEAN RANK >> valid: 2942.032, train: 1737.201
+		##### NEW BEST VALID >> test: 3027.996
+	(the evaluation took 127.451 seconds)
+-- EPOCH 30 (19.838 seconds per epoch):
+COST >> 0.1749 +/- 0.0224, % updates: 43.197%
+	MEAN RANK >> valid: 1717.046, train: 762.2665
+		##### NEW BEST VALID >> test: 1803.8985
+	(the evaluation took 128.064 seconds)
+-- EPOCH 40 (19.9197 seconds per epoch):
+COST >> 0.1162 +/- 0.014, % updates: 35.235%
+	MEAN RANK >> valid: 1270.203, train: 388.811
+		##### NEW BEST VALID >> test: 1357.4975
+	(the evaluation took 135.73 seconds)
+-- EPOCH 50 (25.6261 seconds per epoch):
+COST >> 0.0795 +/- 0.0096, % updates: 28.75%
+	MEAN RANK >> valid: 1099.5275, train: 205.7115
+		##### NEW BEST VALID >> test: 1157.0635
+	(the evaluation took 148.536 seconds)
+-- EPOCH 60 (25.5928 seconds per epoch):
+COST >> 0.0559 +/- 0.0066, % updates: 23.304%
+	MEAN RANK >> valid: 1001.574, train: 129.383
+		##### NEW BEST VALID >> test: 1052.0325
+	(the evaluation took 146.639 seconds)
+-- EPOCH 70 (25.4379 seconds per epoch):
+COST >> 0.0409 +/- 0.0045, % updates: 18.873%
+	MEAN RANK >> valid: 923.3175, train: 87.757
+		##### NEW BEST VALID >> test: 995.575
+	(the evaluation took 147.543 seconds)
+-- EPOCH 80 (25.5958 seconds per epoch):
+COST >> 0.0315 +/- 0.0035, % updates: 15.525%
+	MEAN RANK >> valid: 872.9975, train: 67.7575
+		##### NEW BEST VALID >> test: 941.621
+	(the evaluation took 147.546 seconds)
+-- EPOCH 90 (25.5372 seconds per epoch):
+COST >> 0.0256 +/- 0.0029, % updates: 13.075%
+	MEAN RANK >> valid: 843.357, train: 57.7205
+		##### NEW BEST VALID >> test: 901.684
+	(the evaluation took 146.873 seconds)
+-- EPOCH 100 (25.3315 seconds per epoch):
+COST >> 0.0217 +/- 0.0024, % updates: 11.314%
+	MEAN RANK >> valid: 811.3155, train: 43.68
+		##### NEW BEST VALID >> test: 893.0915
+	(the evaluation took 147.778 seconds)
+-- EPOCH 110 (25.558 seconds per epoch):
+COST >> 0.0188 +/- 0.0022, % updates: 9.966%
+	MEAN RANK >> valid: 777.6275, train: 35.11
+		##### NEW BEST VALID >> test: 868.3255
+	(the evaluation took 147.569 seconds)
+-- EPOCH 120 (25.522 seconds per epoch):
+COST >> 0.0168 +/- 0.0021, % updates: 8.898%
+	MEAN RANK >> valid: 758.8145, train: 28.5435
+		##### NEW BEST VALID >> test: 850.116
+	(the evaluation took 148.322 seconds)
+-- EPOCH 130 (25.4305 seconds per epoch):
+COST >> 0.0153 +/- 0.002, % updates: 8.126%
+	MEAN RANK >> valid: 738.198, train: 22.918
+		##### NEW BEST VALID >> test: 847.651
+	(the evaluation took 147.836 seconds)
+-- EPOCH 140 (25.4955 seconds per epoch):
+COST >> 0.014 +/- 0.002, % updates: 7.453%
+	MEAN RANK >> valid: 715.889, train: 20.2835
+		##### NEW BEST VALID >> test: 839.243
+	(the evaluation took 147.717 seconds)
+-- EPOCH 150 (25.8666 seconds per epoch):
+COST >> 0.0129 +/- 0.0019, % updates: 6.917%
+	MEAN RANK >> valid: 710.4715, train: 16.799
+		##### NEW BEST VALID >> test: 829.228
+	(the evaluation took 150.043 seconds)
+-- EPOCH 160 (25.9501 seconds per epoch):
+COST >> 0.012 +/- 0.0018, % updates: 6.475%
+	MEAN RANK >> valid: 707.25, train: 15.877
+		##### NEW BEST VALID >> test: 831.8455
+	(the evaluation took 150.499 seconds)
+-- EPOCH 170 (25.8324 seconds per epoch):
+COST >> 0.0112 +/- 0.0017, % updates: 6.094%
+	MEAN RANK >> valid: 675.185, train: 12.8245
+		##### NEW BEST VALID >> test: 805.535
+	(the evaluation took 149.277 seconds)
+-- EPOCH 180 (25.8995 seconds per epoch):
+COST >> 0.0106 +/- 0.0017, % updates: 5.736%
+	MEAN RANK >> valid: 665.266, train: 11.7005
+		##### NEW BEST VALID >> test: 792.072
+	(the evaluation took 148.886 seconds)
+-- EPOCH 190 (25.8412 seconds per epoch):
+COST >> 0.0101 +/- 0.0016, % updates: 5.46%
+	MEAN RANK >> valid: 660.6705, train: 11.551
+		##### NEW BEST VALID >> test: 795.6535
+	(the evaluation took 150.106 seconds)
+-- EPOCH 200 (25.7815 seconds per epoch):
+COST >> 0.0096 +/- 0.0017, % updates: 5.206%
+	MEAN RANK >> valid: 667.0215, train: 10.324
+	(the evaluation took 99.575 seconds)
+-- EPOCH 210 (25.7281 seconds per epoch):
+COST >> 0.0091 +/- 0.0016, % updates: 4.936%
+	MEAN RANK >> valid: 662.0025, train: 9.574
+	(the evaluation took 99.94 seconds)
+-- EPOCH 220 (25.7337 seconds per epoch):
+COST >> 0.0088 +/- 0.0015, % updates: 4.747%
+	MEAN RANK >> valid: 649.195, train: 8.702
+		##### NEW BEST VALID >> test: 769.7695
+	(the evaluation took 149.862 seconds)
+-- EPOCH 230 (25.9679 seconds per epoch):
+COST >> 0.0084 +/- 0.0015, % updates: 4.584%
+	MEAN RANK >> valid: 659.5165, train: 8.786
+	(the evaluation took 99.672 seconds)
+-- EPOCH 240 (25.7374 seconds per epoch):
+COST >> 0.0082 +/- 0.0014, % updates: 4.418%
+	MEAN RANK >> valid: 642.061, train: 8.324
+		##### NEW BEST VALID >> test: 756.262
+	(the evaluation took 149.54 seconds)
+-- EPOCH 250 (25.7735 seconds per epoch):
+COST >> 0.0078 +/- 0.0014, % updates: 4.246%
+	MEAN RANK >> valid: 640.584, train: 8.184
+		##### NEW BEST VALID >> test: 760.4755
+	(the evaluation took 149.718 seconds)
+-- EPOCH 260 (25.8264 seconds per epoch):
+COST >> 0.0076 +/- 0.0015, % updates: 4.109%
+	MEAN RANK >> valid: 633.5075, train: 7.8275
+		##### NEW BEST VALID >> test: 745.3665
+	(the evaluation took 149.229 seconds)
+-- EPOCH 270 (25.8861 seconds per epoch):
+COST >> 0.0073 +/- 0.0014, % updates: 3.983%
+	MEAN RANK >> valid: 638.0825, train: 7.594
+	(the evaluation took 100.307 seconds)
+-- EPOCH 280 (25.9537 seconds per epoch):
+COST >> 0.0071 +/- 0.0014, % updates: 3.874%
+	MEAN RANK >> valid: 639.369, train: 7.396
+	(the evaluation took 99.421 seconds)
+-- EPOCH 290 (25.7584 seconds per epoch):
+COST >> 0.0069 +/- 0.0014, % updates: 3.741%
+	MEAN RANK >> valid: 615.5725, train: 7.0785
+		##### NEW BEST VALID >> test: 729.489
+	(the evaluation took 150.042 seconds)
+-- EPOCH 300 (25.7154 seconds per epoch):
+COST >> 0.0067 +/- 0.0013, % updates: 3.659%
+	MEAN RANK >> valid: 623.842, train: 6.8115
+	(the evaluation took 100.226 seconds)
+-- EPOCH 310 (25.9955 seconds per epoch):
+COST >> 0.0065 +/- 0.0014, % updates: 3.561%
+	MEAN RANK >> valid: 620.6105, train: 6.888
+	(the evaluation took 99.067 seconds)
+-- EPOCH 320 (25.8703 seconds per epoch):
+COST >> 0.0063 +/- 0.0013, % updates: 3.464%
+	MEAN RANK >> valid: 616.695, train: 6.5845
+	(the evaluation took 100.411 seconds)
+-- EPOCH 330 (25.8841 seconds per epoch):
+COST >> 0.0062 +/- 0.0013, % updates: 3.364%
+	MEAN RANK >> valid: 614.0845, train: 6.391
+		##### NEW BEST VALID >> test: 704.0175
+	(the evaluation took 149.528 seconds)
+-- EPOCH 340 (25.8814 seconds per epoch):
+COST >> 0.0061 +/- 0.0013, % updates: 3.299%
+	MEAN RANK >> valid: 614.519, train: 6.31
+	(the evaluation took 99.03 seconds)
+-- EPOCH 350 (25.7255 seconds per epoch):
+COST >> 0.0059 +/- 0.0013, % updates: 3.21%
+	MEAN RANK >> valid: 603.977, train: 6.0095
+		##### NEW BEST VALID >> test: 705.363
+	(the evaluation took 150.899 seconds)
+-- EPOCH 360 (25.7652 seconds per epoch):
+COST >> 0.0058 +/- 0.0013, % updates: 3.156%
+	MEAN RANK >> valid: 610.4005, train: 5.998
+	(the evaluation took 99.359 seconds)
+-- EPOCH 370 (25.9137 seconds per epoch):
+COST >> 0.0057 +/- 0.0013, % updates: 3.094%
+	MEAN RANK >> valid: 606.3295, train: 5.7855
+	(the evaluation took 100.149 seconds)
+-- EPOCH 380 (25.8631 seconds per epoch):
+COST >> 0.0056 +/- 0.0013, % updates: 3.035%
+	MEAN RANK >> valid: 598.9105, train: 5.5975
+		##### NEW BEST VALID >> test: 699.5175
+	(the evaluation took 149.057 seconds)
+-- EPOCH 390 (25.876 seconds per epoch):
+COST >> 0.0054 +/- 0.0013, % updates: 2.93%
+	MEAN RANK >> valid: 598.535, train: 5.6905
+		##### NEW BEST VALID >> test: 694.148
+	(the evaluation took 149.101 seconds)
+-- EPOCH 400 (25.8191 seconds per epoch):
+COST >> 0.0053 +/- 0.0012, % updates: 2.912%
+	MEAN RANK >> valid: 601.0855, train: 5.539
+	(the evaluation took 99.232 seconds)
+-- EPOCH 410 (26.0239 seconds per epoch):
+COST >> 0.0053 +/- 0.0012, % updates: 2.849%
+	MEAN RANK >> valid: 593.985, train: 5.7135
+		##### NEW BEST VALID >> test: 681.9335
+	(the evaluation took 149.853 seconds)
+-- EPOCH 420 (25.8501 seconds per epoch):
+COST >> 0.0053 +/- 0.0013, % updates: 2.811%
+	MEAN RANK >> valid: 593.4435, train: 5.818
+		##### NEW BEST VALID >> test: 671.5355
+	(the evaluation took 149.671 seconds)
+-- EPOCH 430 (25.7724 seconds per epoch):
+COST >> 0.0051 +/- 0.0012, % updates: 2.759%
+	MEAN RANK >> valid: 592.797, train: 5.14
+		##### NEW BEST VALID >> test: 679.9725
+	(the evaluation took 150.037 seconds)
+-- EPOCH 440 (25.8321 seconds per epoch):
+COST >> 0.005 +/- 0.0012, % updates: 2.679%
+	MEAN RANK >> valid: 593.216, train: 5.1605
+	(the evaluation took 99.007 seconds)
+-- EPOCH 450 (25.7608 seconds per epoch):
+COST >> 0.005 +/- 0.0012, % updates: 2.651%
+	MEAN RANK >> valid: 594.231, train: 5.301
+	(the evaluation took 100.195 seconds)
+-- EPOCH 460 (25.8289 seconds per epoch):
+COST >> 0.0049 +/- 0.0012, % updates: 2.607%
+	MEAN RANK >> valid: 580.6775, train: 5.106
+		##### NEW BEST VALID >> test: 683.5575
+	(the evaluation took 150.218 seconds)
+-- EPOCH 470 (25.9148 seconds per epoch):
+COST >> 0.0048 +/- 0.0012, % updates: 2.558%
+	MEAN RANK >> valid: 583.3005, train: 5.2165
+	(the evaluation took 99.363 seconds)
+-- EPOCH 480 (25.896 seconds per epoch):
+COST >> 0.0047 +/- 0.0012, % updates: 2.537%
+	MEAN RANK >> valid: 579.9285, train: 5.273
+		##### NEW BEST VALID >> test: 670.98
+	(the evaluation took 149.962 seconds)
+-- EPOCH 490 (25.845 seconds per epoch):
+COST >> 0.0047 +/- 0.0012, % updates: 2.495%
+	MEAN RANK >> valid: 576.868, train: 5.2495
+		##### NEW BEST VALID >> test: 686.9935
+	(the evaluation took 148.958 seconds)
+-- EPOCH 500 (25.9089 seconds per epoch):
+COST >> 0.0046 +/- 0.0012, % updates: 2.45%
+	MEAN RANK >> valid: 583.012, train: 4.7915
+	(the evaluation took 100.307 seconds)
+
+Process finished with exit code 0
+
+
+#0429
+/Users/bing/anaconda3/envs/theano/bin/python /Users/bing/work/MasterThesis/SME/FB15k/db_parse.py
+# of only_left/shared/only_right entities:  6344 / 1515 / 47482
+Number of relations:  874
+train
+valid
+test
+unseen_ents: 0
+remove_tst_ex: 0
+
+/Users/bing/anaconda3/envs/theano/bin/python /Users/bing/work/MasterThesis/SME/FB15k/dbv_TransE.py
+/Users/bing/anaconda3/envs/theano/lib/python2.7/site-packages/nose_parameterized/__init__.py:7: UserWarning: The 'nose-parameterized' package has been renamed 'parameterized'. For the two step migration instructions, see: https://github.com/wolever/parameterized#migrating-from-nose-parameterized-to-parameterized (set NOSE_PARAMETERIZED_NO_WARN=1 to suppress this warning)
+  "The 'nose-parameterized' package has been renamed 'parameterized'. "
+DD{'ndim': 50, 'test_all': 10, 'loadmodelBi': False, 'loadmodelTri': False, 'nhid': 50, 'lremb': 0.01, 'savepath': 'dbv_TransE', 'seed': 123, 'marge': 0.5, 'simfn': 'L2', 'neval': 1000, 'dataset': 'dbv_s', 'nbatches': 100, 'lrparam': 0.01, 'loademb': False, 'datapath': '../data/', 'Nrel': 874, 'totepochs': 500, 'rhoL': 5, 'Nent': 56215, 'Nsyn': 55341, 'loadmodel': False, 'rhoE': 1, 'op': 'TransE'}
+BEGIN TRAINING
+-- EPOCH 10 (20.2312 seconds per epoch):
+COST >> 0.6439 +/- 0.1773, % updates: 84.65%
+	MEAN RANK >> valid: 6672.4115, train: 4545.8395
+		##### NEW BEST VALID >> test: 6592.533
+	(the evaluation took 127.753 seconds)
+-- EPOCH 20 (23.7089 seconds per epoch):
+COST >> 0.2851 +/- 0.0479, % updates: 56.056%
+	MEAN RANK >> valid: 2942.032, train: 1737.201
+		##### NEW BEST VALID >> test: 3027.996
+	(the evaluation took 159.221 seconds)
+-- EPOCH 30 (27.9099 seconds per epoch):
+COST >> 0.1749 +/- 0.0224, % updates: 43.197%
+	MEAN RANK >> valid: 1717.046, train: 762.2665
+		##### NEW BEST VALID >> test: 1803.8985
+	(the evaluation took 166.667 seconds)
+-- EPOCH 40 (24.7655 seconds per epoch):
+COST >> 0.1162 +/- 0.014, % updates: 35.235%
+	MEAN RANK >> valid: 1270.203, train: 388.811
+		##### NEW BEST VALID >> test: 1357.4975
+	(the evaluation took 173.856 seconds)
+-- EPOCH 50 (25.9636 seconds per epoch):
+COST >> 0.0795 +/- 0.0096, % updates: 28.75%
+	MEAN RANK >> valid: 1099.5275, train: 205.7115
+		##### NEW BEST VALID >> test: 1157.0635
+	(the evaluation took 177.892 seconds)
+-- EPOCH 60 (25.875 seconds per epoch):
+COST >> 0.0559 +/- 0.0066, % updates: 23.304%
+	MEAN RANK >> valid: 1001.574, train: 129.383
+		##### NEW BEST VALID >> test: 1052.0325
+	(the evaluation took 178.555 seconds)
+-- EPOCH 70 (26.2788 seconds per epoch):
+COST >> 0.0409 +/- 0.0045, % updates: 18.873%
+	MEAN RANK >> valid: 923.3175, train: 87.757
+		##### NEW BEST VALID >> test: 995.575
+	(the evaluation took 176.054 seconds)
+-- EPOCH 80 (27.0398 seconds per epoch):
+COST >> 0.0315 +/- 0.0035, % updates: 15.525%
+	MEAN RANK >> valid: 872.9975, train: 67.7575
+		##### NEW BEST VALID >> test: 941.621
+	(the evaluation took 176.907 seconds)
+-- EPOCH 90 (26.2817 seconds per epoch):
+COST >> 0.0256 +/- 0.0029, % updates: 13.075%
+	MEAN RANK >> valid: 843.357, train: 57.7205
+		##### NEW BEST VALID >> test: 901.684
+	(the evaluation took 154.199 seconds)
+-- EPOCH 100 (23.0569 seconds per epoch):
+COST >> 0.0217 +/- 0.0024, % updates: 11.314%
+	MEAN RANK >> valid: 811.3155, train: 43.68
+		##### NEW BEST VALID >> test: 893.0915
+	(the evaluation took 149.234 seconds)
+-- EPOCH 110 (22.7764 seconds per epoch):
+COST >> 0.0188 +/- 0.0022, % updates: 9.966%
+	MEAN RANK >> valid: 777.6275, train: 35.11
+		##### NEW BEST VALID >> test: 868.3255
+	(the evaluation took 146.67 seconds)
+-- EPOCH 120 (22.7424 seconds per epoch):
+COST >> 0.0168 +/- 0.0021, % updates: 8.898%
+	MEAN RANK >> valid: 758.8145, train: 28.5435
+		##### NEW BEST VALID >> test: 850.116
+	(the evaluation took 146.616 seconds)
+-- EPOCH 130 (22.8608 seconds per epoch):
+COST >> 0.0153 +/- 0.002, % updates: 8.126%
+	MEAN RANK >> valid: 738.198, train: 22.918
+		##### NEW BEST VALID >> test: 847.651
+	(the evaluation took 146.438 seconds)
+-- EPOCH 140 (25.4212 seconds per epoch):
+COST >> 0.014 +/- 0.002, % updates: 7.453%
+	MEAN RANK >> valid: 715.889, train: 20.2835
+		##### NEW BEST VALID >> test: 839.243
+	(the evaluation took 173.427 seconds)
+-- EPOCH 150 (25.4998 seconds per epoch):
+COST >> 0.0129 +/- 0.0019, % updates: 6.917%
+	MEAN RANK >> valid: 710.4715, train: 16.799
+		##### NEW BEST VALID >> test: 829.228
+	(the evaluation took 161.608 seconds)
+-- EPOCH 160 (25.9656 seconds per epoch):
+COST >> 0.012 +/- 0.0018, % updates: 6.475%
+	MEAN RANK >> valid: 707.25, train: 15.877
+		##### NEW BEST VALID >> test: 831.8455
+	(the evaluation took 159.135 seconds)
+-- EPOCH 170 (25.9973 seconds per epoch):
+COST >> 0.0112 +/- 0.0017, % updates: 6.094%
+	MEAN RANK >> valid: 675.185, train: 12.8245
+		##### NEW BEST VALID >> test: 805.535
+	(the evaluation took 169.235 seconds)
+-- EPOCH 180 (25.6582 seconds per epoch):
+COST >> 0.0106 +/- 0.0017, % updates: 5.736%
+	MEAN RANK >> valid: 665.266, train: 11.7005
+		##### NEW BEST VALID >> test: 792.072
+	(the evaluation took 171.189 seconds)
+-- EPOCH 190 (26.2765 seconds per epoch):
+COST >> 0.0101 +/- 0.0016, % updates: 5.46%
+	MEAN RANK >> valid: 660.6705, train: 11.551
+		##### NEW BEST VALID >> test: 795.6535
+	(the evaluation took 170.19 seconds)
+-- EPOCH 200 (26.5083 seconds per epoch):
+COST >> 0.0096 +/- 0.0017, % updates: 5.206%
+	MEAN RANK >> valid: 667.0215, train: 10.324
+	(the evaluation took 113.417 seconds)
+-- EPOCH 210 (26.1745 seconds per epoch):
+COST >> 0.0091 +/- 0.0016, % updates: 4.936%
+	MEAN RANK >> valid: 662.0025, train: 9.574
+	(the evaluation took 109.998 seconds)
+-- EPOCH 220 (26.2567 seconds per epoch):
+COST >> 0.0088 +/- 0.0015, % updates: 4.747%
+	MEAN RANK >> valid: 649.195, train: 8.702
+		##### NEW BEST VALID >> test: 769.7695
+	(the evaluation took 186.048 seconds)
+-- EPOCH 230 (28.3184 seconds per epoch):
+COST >> 0.0084 +/- 0.0015, % updates: 4.584%
+	MEAN RANK >> valid: 659.5165, train: 8.786
+	(the evaluation took 164.193 seconds)
+-- EPOCH 240 (38.0476 seconds per epoch):
+COST >> 0.0082 +/- 0.0014, % updates: 4.418%
+	MEAN RANK >> valid: 642.061, train: 8.324
+		##### NEW BEST VALID >> test: 756.262
+	(the evaluation took 263.169 seconds)
+-- EPOCH 250 (40.5766 seconds per epoch):
+COST >> 0.0078 +/- 0.0014, % updates: 4.246%
+	MEAN RANK >> valid: 640.584, train: 8.184
+		##### NEW BEST VALID >> test: 760.4755
+	(the evaluation took 284.787 seconds)
+-- EPOCH 260 (24.1754 seconds per epoch):
+COST >> 0.0076 +/- 0.0015, % updates: 4.109%
+	MEAN RANK >> valid: 633.5075, train: 7.8275
+		##### NEW BEST VALID >> test: 745.3665
+	(the evaluation took 130.406 seconds)
+-- EPOCH 270 (19.6694 seconds per epoch):
+COST >> 0.0073 +/- 0.0014, % updates: 3.983%
+	MEAN RANK >> valid: 638.0825, train: 7.594
+	(the evaluation took 88.558 seconds)
+-- EPOCH 280 (20.8928 seconds per epoch):
+COST >> 0.0071 +/- 0.0014, % updates: 3.874%
+	MEAN RANK >> valid: 639.369, train: 7.396
+	(the evaluation took 89.054 seconds)
+-- EPOCH 290 (19.6045 seconds per epoch):
+COST >> 0.0069 +/- 0.0014, % updates: 3.741%
+	MEAN RANK >> valid: 615.5725, train: 7.0785
+		##### NEW BEST VALID >> test: 729.489
+	(the evaluation took 128.071 seconds)
+-- EPOCH 300 (18.7487 seconds per epoch):
+COST >> 0.0067 +/- 0.0013, % updates: 3.659%
+	MEAN RANK >> valid: 623.842, train: 6.8115
+	(the evaluation took 85.416 seconds)
+-- EPOCH 310 (22.8878 seconds per epoch):
+COST >> 0.0065 +/- 0.0014, % updates: 3.561%
+	MEAN RANK >> valid: 620.6105, train: 6.888
+	(the evaluation took 111.153 seconds)
+-- EPOCH 320 (25.5877 seconds per epoch):
+COST >> 0.0063 +/- 0.0013, % updates: 3.464%
+	MEAN RANK >> valid: 616.695, train: 6.5845
+	(the evaluation took 115.435 seconds)
+-- EPOCH 330 (28.7611 seconds per epoch):
+COST >> 0.0062 +/- 0.0013, % updates: 3.364%
+	MEAN RANK >> valid: 614.0845, train: 6.391
+		##### NEW BEST VALID >> test: 704.0175
+	(the evaluation took 133.22 seconds)
+-- EPOCH 340 (18.9199 seconds per epoch):
+COST >> 0.0061 +/- 0.0013, % updates: 3.299%
+	MEAN RANK >> valid: 614.519, train: 6.31
+	(the evaluation took 86.927 seconds)
+-- EPOCH 350 (18.5521 seconds per epoch):
+COST >> 0.0059 +/- 0.0013, % updates: 3.21%
+	MEAN RANK >> valid: 603.977, train: 6.0095
+		##### NEW BEST VALID >> test: 705.363
+	(the evaluation took 134.335 seconds)
+-- EPOCH 360 (19.424 seconds per epoch):
+COST >> 0.0058 +/- 0.0013, % updates: 3.156%
+	MEAN RANK >> valid: 610.4005, train: 5.998
+	(the evaluation took 84.52 seconds)
+-- EPOCH 370 (18.9055 seconds per epoch):
+COST >> 0.0057 +/- 0.0013, % updates: 3.094%
+	MEAN RANK >> valid: 606.3295, train: 5.7855
+	(the evaluation took 84.836 seconds)
+-- EPOCH 380 (19.1015 seconds per epoch):
+COST >> 0.0056 +/- 0.0013, % updates: 3.035%
+	MEAN RANK >> valid: 598.9105, train: 5.5975
+		##### NEW BEST VALID >> test: 699.5175
+	(the evaluation took 128.212 seconds)
+-- EPOCH 390 (19.0214 seconds per epoch):
+COST >> 0.0054 +/- 0.0013, % updates: 2.93%
+	MEAN RANK >> valid: 598.535, train: 5.6905
+		##### NEW BEST VALID >> test: 694.148
+	(the evaluation took 127.012 seconds)
+-- EPOCH 400 (18.8784 seconds per epoch):
+COST >> 0.0053 +/- 0.0012, % updates: 2.912%
+	MEAN RANK >> valid: 601.0855, train: 5.539
+	(the evaluation took 85.215 seconds)
+-- EPOCH 410 (18.9157 seconds per epoch):
+COST >> 0.0053 +/- 0.0012, % updates: 2.849%
+	MEAN RANK >> valid: 593.985, train: 5.7135
+		##### NEW BEST VALID >> test: 681.9335
+	(the evaluation took 128.398 seconds)
+-- EPOCH 420 (19.004 seconds per epoch):
+COST >> 0.0053 +/- 0.0013, % updates: 2.811%
+	MEAN RANK >> valid: 593.4435, train: 5.818
+		##### NEW BEST VALID >> test: 671.5355
+	(the evaluation took 127.621 seconds)
+-- EPOCH 430 (18.9164 seconds per epoch):
+COST >> 0.0051 +/- 0.0012, % updates: 2.759%
+	MEAN RANK >> valid: 592.797, train: 5.14
+		##### NEW BEST VALID >> test: 679.9725
+	(the evaluation took 126.22 seconds)
+-- EPOCH 440 (23.0652 seconds per epoch):
+COST >> 0.005 +/- 0.0012, % updates: 2.679%
+	MEAN RANK >> valid: 593.216, train: 5.1605
+	(the evaluation took 84.827 seconds)
+-- EPOCH 450 (18.9164 seconds per epoch):
+COST >> 0.005 +/- 0.0012, % updates: 2.651%
+	MEAN RANK >> valid: 594.231, train: 5.301
+	(the evaluation took 85.573 seconds)
+-- EPOCH 460 (18.9103 seconds per epoch):
+COST >> 0.0049 +/- 0.0012, % updates: 2.607%
+	MEAN RANK >> valid: 580.6775, train: 5.106
+		##### NEW BEST VALID >> test: 683.5575
+	(the evaluation took 128.228 seconds)
+-- EPOCH 470 (19.0665 seconds per epoch):
+COST >> 0.0048 +/- 0.0012, % updates: 2.558%
+	MEAN RANK >> valid: 583.3005, train: 5.2165
+	(the evaluation took 84.414 seconds)
+-- EPOCH 480 (18.9628 seconds per epoch):
+COST >> 0.0047 +/- 0.0012, % updates: 2.537%
+	MEAN RANK >> valid: 579.9285, train: 5.273
+		##### NEW BEST VALID >> test: 670.98
+	(the evaluation took 126.751 seconds)
+-- EPOCH 490 (19.41 seconds per epoch):
+COST >> 0.0047 +/- 0.0012, % updates: 2.495%
+	MEAN RANK >> valid: 576.868, train: 5.2495
+		##### NEW BEST VALID >> test: 686.9935
+	(the evaluation took 127.165 seconds)
+-- EPOCH 500 (18.911 seconds per epoch):
+COST >> 0.0046 +/- 0.0012, % updates: 2.45%
+	MEAN RANK >> valid: 583.012, train: 4.7915
+	(the evaluation took 85.946 seconds)
+
+Process finished with exit code 0
+
+#0415
+(theano) bingdeMacBook-Pro:FB15k bing$ python /Users/bing/work/MasterThesis/SME/FB15k/db_parse.py 
+# of only_left/shared/only_right entities:  6302 / 1506 / 39602
+Number of relations:  856
+train
+valid
+test
+unseen_ents: 4550
+remove_tst_ex: 8197
+
+#0428
+/Users/bing/anaconda3/envs/theano/bin/python /Users/bing/work/MasterThesis/SME/FB15k/dbv_TransE.py
+/Users/bing/anaconda3/envs/theano/lib/python2.7/site-packages/nose_parameterized/__init__.py:7: UserWarning: The 'nose-parameterized' package has been renamed 'parameterized'. For the two step migration instructions, see: https://github.com/wolever/parameterized#migrating-from-nose-parameterized-to-parameterized (set NOSE_PARAMETERIZED_NO_WARN=1 to suppress this warning)
+  "The 'nose-parameterized' package has been renamed 'parameterized'. "
+DD{'ndim': 50, 'test_all': 10, 'loadmodelBi': False, 'loadmodelTri': False, 'nhid': 50, 'lremb': 0.01, 'savepath': 'dbv_TransE', 'seed': 123, 'marge': 0.5, 'simfn': 'L2', 'neval': 1000, 'dataset': 'dbv_s', 'nbatches': 100, 'lrparam': 0.01, 'loademb': False, 'datapath': '../data/', 'Nrel': 856, 'totepochs': 500, 'rhoL': 5, 'Nent': 48266, 'Nsyn': 47410, 'loadmodel': False, 'rhoE': 1, 'op': 'TransE'}
+BEGIN TRAINING
+-- EPOCH 10 (19.6799 seconds per epoch):
+COST >> 0.6504 +/- 0.1715, % updates: 85.651%
+	MEAN RANK >> valid: 5977.3845, train: 3932.224
+		##### NEW BEST VALID >> test: 6250.8705
+	(the evaluation took 118.242 seconds)
+-- EPOCH 20 (17.0388 seconds per epoch):
+COST >> 0.2803 +/- 0.0526, % updates: 57.155%
+	MEAN RANK >> valid: 3089.7275, train: 1362.8095
+		##### NEW BEST VALID >> test: 3375.551
+	(the evaluation took 117.486 seconds)
+-- EPOCH 30 (17.1144 seconds per epoch):
+COST >> 0.1634 +/- 0.0228, % updates: 42.481%
+	MEAN RANK >> valid: 2274.6925, train: 573.141
+		##### NEW BEST VALID >> test: 2457.1
+	(the evaluation took 116.945 seconds)
+-- EPOCH 40 (17.2228 seconds per epoch):
+COST >> 0.1055 +/- 0.0135, % updates: 33.711%
+	MEAN RANK >> valid: 1926.9375, train: 279.972
+		##### NEW BEST VALID >> test: 2050.1025
+	(the evaluation took 117.715 seconds)
+-- EPOCH 50 (16.8566 seconds per epoch):
+COST >> 0.072 +/- 0.0088, % updates: 27.082%
+	MEAN RANK >> valid: 1731.7795, train: 136.0215
+		##### NEW BEST VALID >> test: 1820.2425
+	(the evaluation took 115.771 seconds)
+-- EPOCH 60 (16.8211 seconds per epoch):
+COST >> 0.0508 +/- 0.0059, % updates: 21.777%
+	MEAN RANK >> valid: 1588.99, train: 83.2035
+		##### NEW BEST VALID >> test: 1672.2745
+	(the evaluation took 116.517 seconds)
+-- EPOCH 70 (18.1378 seconds per epoch):
+COST >> 0.0379 +/- 0.0042, % updates: 17.723%
+	MEAN RANK >> valid: 1491.7325, train: 55.0665
+		##### NEW BEST VALID >> test: 1581.304
+	(the evaluation took 118.178 seconds)
+-- EPOCH 80 (17.5235 seconds per epoch):
+COST >> 0.0299 +/- 0.0034, % updates: 14.68%
+	MEAN RANK >> valid: 1448.2995, train: 40.013
+		##### NEW BEST VALID >> test: 1493.217
+	(the evaluation took 119.612 seconds)
+-- EPOCH 90 (17.765 seconds per epoch):
+COST >> 0.0247 +/- 0.003, % updates: 12.506%
+	MEAN RANK >> valid: 1395.3135, train: 27.91
+		##### NEW BEST VALID >> test: 1446.314
+	(the evaluation took 119.615 seconds)
+-- EPOCH 100 (17.4927 seconds per epoch):
+COST >> 0.0212 +/- 0.0026, % updates: 10.893%
+	MEAN RANK >> valid: 1375.1705, train: 23.105
+		##### NEW BEST VALID >> test: 1404.0465
+	(the evaluation took 117.397 seconds)
+-- EPOCH 110 (17.2493 seconds per epoch):
+COST >> 0.0187 +/- 0.0023, % updates: 9.689%
+	MEAN RANK >> valid: 1358.029, train: 16.218
+		##### NEW BEST VALID >> test: 1366.5885
+	(the evaluation took 122.31 seconds)
+-- EPOCH 120 (17.7377 seconds per epoch):
+COST >> 0.0166 +/- 0.0021, % updates: 8.685%
+	MEAN RANK >> valid: 1347.79, train: 13.664
+		##### NEW BEST VALID >> test: 1349.1935
+	(the evaluation took 120.314 seconds)
+-- EPOCH 130 (17.7951 seconds per epoch):
+COST >> 0.0152 +/- 0.0022, % updates: 7.992%
+	MEAN RANK >> valid: 1328.4645, train: 12.1315
+		##### NEW BEST VALID >> test: 1341.207
+	(the evaluation took 119.113 seconds)
+-- EPOCH 140 (17.8537 seconds per epoch):
+COST >> 0.0139 +/- 0.002, % updates: 7.362%
+	MEAN RANK >> valid: 1327.611, train: 12.178
+		##### NEW BEST VALID >> test: 1300.606
+	(the evaluation took 119.539 seconds)
+-- EPOCH 150 (18.3516 seconds per epoch):
+COST >> 0.0129 +/- 0.002, % updates: 6.816%
+	MEAN RANK >> valid: 1296.508, train: 10.7705
+		##### NEW BEST VALID >> test: 1287.6185
+	(the evaluation took 120.212 seconds)
+-- EPOCH 160 (17.7051 seconds per epoch):
+COST >> 0.0121 +/- 0.002, % updates: 6.422%
+	MEAN RANK >> valid: 1265.722, train: 10.1185
+		##### NEW BEST VALID >> test: 1262.1175
+	(the evaluation took 120.541 seconds)
+-- EPOCH 170 (17.8569 seconds per epoch):
+COST >> 0.0113 +/- 0.0018, % updates: 6.04%
+	MEAN RANK >> valid: 1272.0745, train: 9.707
+	(the evaluation took 78.37 seconds)
+-- EPOCH 180 (17.693 seconds per epoch):
+COST >> 0.0108 +/- 0.0017, % updates: 5.737%
+	MEAN RANK >> valid: 1259.616, train: 8.665
+		##### NEW BEST VALID >> test: 1244.7895
+	(the evaluation took 118.661 seconds)
+-- EPOCH 190 (17.1446 seconds per epoch):
+COST >> 0.0102 +/- 0.0017, % updates: 5.466%
+	MEAN RANK >> valid: 1253.1875, train: 8.2505
+		##### NEW BEST VALID >> test: 1229.343
+	(the evaluation took 119.182 seconds)
+-- EPOCH 200 (17.4087 seconds per epoch):
+COST >> 0.0097 +/- 0.0017, % updates: 5.171%
+	MEAN RANK >> valid: 1244.7575, train: 8.0685
+		##### NEW BEST VALID >> test: 1217.682
+	(the evaluation took 117.727 seconds)
+-- EPOCH 210 (17.8294 seconds per epoch):
+COST >> 0.0093 +/- 0.0017, % updates: 4.955%
+	MEAN RANK >> valid: 1251.1095, train: 7.8675
+	(the evaluation took 78.204 seconds)
+-- EPOCH 220 (17.2268 seconds per epoch):
+COST >> 0.0089 +/- 0.0015, % updates: 4.786%
+	MEAN RANK >> valid: 1263.3575, train: 7.731
+	(the evaluation took 78.366 seconds)
+-- EPOCH 230 (17.2641 seconds per epoch):
+COST >> 0.0086 +/- 0.0016, % updates: 4.586%
+	MEAN RANK >> valid: 1237.053, train: 7.096
+		##### NEW BEST VALID >> test: 1187.803
+	(the evaluation took 119.265 seconds)
+-- EPOCH 240 (17.9175 seconds per epoch):
+COST >> 0.0083 +/- 0.0016, % updates: 4.456%
+	MEAN RANK >> valid: 1232.5295, train: 6.778
+		##### NEW BEST VALID >> test: 1183.8465
+	(the evaluation took 119.627 seconds)
+-- EPOCH 250 (17.1096 seconds per epoch):
+COST >> 0.008 +/- 0.0015, % updates: 4.272%
+	MEAN RANK >> valid: 1243.6665, train: 6.766
+	(the evaluation took 78.605 seconds)
+-- EPOCH 260 (17.2784 seconds per epoch):
+COST >> 0.0077 +/- 0.0015, % updates: 4.132%
+	MEAN RANK >> valid: 1239.6485, train: 7.0525
+	(the evaluation took 78.175 seconds)
+-- EPOCH 270 (17.7775 seconds per epoch):
+COST >> 0.0075 +/- 0.0015, % updates: 4.01%
+	MEAN RANK >> valid: 1239.1075, train: 6.536
+	(the evaluation took 79.289 seconds)
+-- EPOCH 280 (17.8007 seconds per epoch):
+COST >> 0.0073 +/- 0.0015, % updates: 3.905%
+	MEAN RANK >> valid: 1229.7985, train: 6.4445
+		##### NEW BEST VALID >> test: 1151.1465
+	(the evaluation took 119.854 seconds)
+-- EPOCH 290 (17.8718 seconds per epoch):
+COST >> 0.0071 +/- 0.0014, % updates: 3.779%
+	MEAN RANK >> valid: 1244.5995, train: 6.523
+	(the evaluation took 79.385 seconds)
+-- EPOCH 300 (18.0536 seconds per epoch):
+COST >> 0.007 +/- 0.0015, % updates: 3.677%
+	MEAN RANK >> valid: 1230.2375, train: 5.9065
+	(the evaluation took 79.122 seconds)
+-- EPOCH 310 (17.9074 seconds per epoch):
+COST >> 0.0068 +/- 0.0015, % updates: 3.587%
+	MEAN RANK >> valid: 1225.68, train: 5.934
+		##### NEW BEST VALID >> test: 1169.2665
+	(the evaluation took 118.544 seconds)
+-- EPOCH 320 (17.3613 seconds per epoch):
+COST >> 0.0065 +/- 0.0015, % updates: 3.497%
+	MEAN RANK >> valid: 1226.76, train: 5.413
+	(the evaluation took 78.768 seconds)
+-- EPOCH 330 (18.5058 seconds per epoch):
+COST >> 0.0064 +/- 0.0015, % updates: 3.41%
+	MEAN RANK >> valid: 1232.0955, train: 5.457
+	(the evaluation took 78.092 seconds)
+-- EPOCH 340 (17.048 seconds per epoch):
+COST >> 0.0064 +/- 0.0015, % updates: 3.351%
+	MEAN RANK >> valid: 1230.305, train: 5.686
+	(the evaluation took 79.89 seconds)
+-- EPOCH 350 (17.3003 seconds per epoch):
+COST >> 0.0061 +/- 0.0014, % updates: 3.253%
+	MEAN RANK >> valid: 1201.364, train: 5.2585
+		##### NEW BEST VALID >> test: 1147.9335
+	(the evaluation took 117.846 seconds)
+-- EPOCH 360 (20.2938 seconds per epoch):
+COST >> 0.0061 +/- 0.0015, % updates: 3.194%
+	MEAN RANK >> valid: 1205.3145, train: 5.038
+	(the evaluation took 78.279 seconds)
+-- EPOCH 370 (17.8117 seconds per epoch):
+COST >> 0.0059 +/- 0.0015, % updates: 3.115%
+	MEAN RANK >> valid: 1216.0565, train: 4.9585
+	(the evaluation took 77.112 seconds)
+-- EPOCH 380 (17.2349 seconds per epoch):
+COST >> 0.006 +/- 0.0015, % updates: 3.053%
+	MEAN RANK >> valid: 1215.51, train: 4.668
+	(the evaluation took 78.106 seconds)
+-- EPOCH 390 (17.0977 seconds per epoch):
+COST >> 0.0059 +/- 0.0014, % updates: 3.024%
+	MEAN RANK >> valid: 1214.9635, train: 4.887
+	(the evaluation took 78.266 seconds)
+-- EPOCH 400 (17.8727 seconds per epoch):
+COST >> 0.0057 +/- 0.0014, % updates: 2.968%
+	MEAN RANK >> valid: 1221.719, train: 5.0005
+	(the evaluation took 79.389 seconds)
+-- EPOCH 410 (17.1756 seconds per epoch):
+COST >> 0.0056 +/- 0.0014, % updates: 2.921%
+	MEAN RANK >> valid: 1172.3625, train: 4.5415
+		##### NEW BEST VALID >> test: 1117.7445
+	(the evaluation took 135.676 seconds)
+-- EPOCH 420 (22.2858 seconds per epoch):
+COST >> 0.0056 +/- 0.0014, % updates: 2.838%
+	MEAN RANK >> valid: 1214.612, train: 4.8685
+	(the evaluation took 85.239 seconds)
+-- EPOCH 430 (18.2446 seconds per epoch):
+COST >> 0.0054 +/- 0.0014, % updates: 2.782%
+	MEAN RANK >> valid: 1209.787, train: 4.751
+	(the evaluation took 92.198 seconds)
+-- EPOCH 440 (18.8188 seconds per epoch):
+COST >> 0.0054 +/- 0.0014, % updates: 2.777%
+	MEAN RANK >> valid: 1204.2755, train: 4.7475
+	(the evaluation took 81.808 seconds)
+-- EPOCH 450 (18.6237 seconds per epoch):
+COST >> 0.0053 +/- 0.0014, % updates: 2.706%
+	MEAN RANK >> valid: 1197.65, train: 4.9185
+	(the evaluation took 83.148 seconds)
+-- EPOCH 460 (20.3519 seconds per epoch):
+COST >> 0.0051 +/- 0.0013, % updates: 2.668%
+	MEAN RANK >> valid: 1200.2225, train: 4.6405
+	(the evaluation took 85.3 seconds)
+-- EPOCH 470 (19.9818 seconds per epoch):
+COST >> 0.0051 +/- 0.0013, % updates: 2.64%
+	MEAN RANK >> valid: 1202.9365, train: 4.632
+	(the evaluation took 84.213 seconds)
+-- EPOCH 480 (19.6472 seconds per epoch):
+COST >> 0.0051 +/- 0.0014, % updates: 2.587%
+	MEAN RANK >> valid: 1213.023, train: 4.5565
+	(the evaluation took 85.552 seconds)
+-- EPOCH 490 (20.4192 seconds per epoch):
+COST >> 0.005 +/- 0.0013, % updates: 2.54%
+	MEAN RANK >> valid: 1210.764, train: 4.4285
+	(the evaluation took 86.058 seconds)
+-- EPOCH 500 (20.0075 seconds per epoch):
+COST >> 0.005 +/- 0.0014, % updates: 2.519%
+	MEAN RANK >> valid: 1206.1915, train: 4.3145
+	(the evaluation took 85.398 seconds)
+
+Process finished with exit code 0

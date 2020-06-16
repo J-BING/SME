@@ -5,7 +5,7 @@ import numpy as np
 import scipy.sparse as sp
 
 # Put the freebase15k data absolute path here
-datapath = None
+datapath = 'raw_FB15k/'
 assert datapath is not None
 
 if 'data' not in os.listdir('../'):
@@ -132,12 +132,12 @@ for datatyp in ['train', 'valid', 'test']:
     h.close()
 
 unseen_ents=list(set(unseen_ents))
-print len(unseen_ents)
+print 'unseen_ents: %s' % len(unseen_ents)
 remove_tst_ex=list(set(remove_tst_ex))
-print len(remove_tst_ex)
+print 'remove_tst_ex: %s' % len(remove_tst_ex)
 
-for i in remove_tst_ex:
-    print i
+# for i in remove_tst_ex:
+#     print i
 
 
 

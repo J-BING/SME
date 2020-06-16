@@ -8,3 +8,14 @@
 	-- left   >> mean: 338.6627, median: 274.2846, hits@10: 31.9%
 	-- right  >> mean: 296.04143, median: 240.66493, hits@10: 38.49%
 	-- global >> mean: 317.35207, median: 208.57388, hits@10: 35.195%
+
+## Results from Bing##
+
+### MICRO:
+	-- left   >> mean: 229.41149, median: 23.0, hits@10: 37.377%
+	-- right  >> mean: 160.86706, median: 14.0, hits@10: 45.088%
+	-- global >> mean: 195.13927, median: 18.0, hits@10: 41.233%
+### MACRO:
+	-- left   >> mean: 106.30351, median: 83.18991, hits@10: 55.557%
+	-- right  >> mean: 84.51045, median: 63.63632, hits@10: 63.104%
+	-- global >> mean: 95.40698, median: 33.58689, hits@10: 59.331%

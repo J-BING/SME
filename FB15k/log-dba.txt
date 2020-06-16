@@ -1,0 +1,13 @@
+#0501
+read data:940.374641895s
+# of only_left/shared/only_right entities:  3337177 / 2008394 / 3223790
+# rel: 1293
+computate specific entities:272.324792862s
+if rel is unique:True
+create entity2idx:23.2248239517s
+if the length of en2in equals to in2en:True
+train
+valid
+test
+unseen_ents: 0
+remove_tst_ex: 0
