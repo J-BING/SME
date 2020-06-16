@@ -34,4 +34,6 @@ nosetests.xml
 .project
 .pydevproject
 
+# Usr settings
 data/
+FB15k/dba_s/
